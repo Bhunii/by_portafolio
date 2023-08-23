@@ -33,7 +33,7 @@ un "background" con una frase superpuesta */
     border-radius: none;
     color: rgb(226, 221, 248);
     font-family: 'Fredericka the Great', cursive;
-    font-size: 5vh;
+    font-size: 7vh;
 }
 
 /* Transicion de colores previa o posterior para la
@@ -69,6 +69,7 @@ parrafo acompañado de un titulo y una
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(238, 239, 240);
 }
 
 .container_personal_information{
@@ -125,7 +126,7 @@ para saber mas*/
     height: 200px;
     border-radius: 22px;
     left: 95%;
-    top: 50%;
+    top: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,23 +146,7 @@ para saber mas*/
     background-color: blueviolet;
 }
 
-.btn_home img{
-    width: 45px;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.btn_2 img{
-    width: 45px;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.btn_3 img{
+.btn_home img, .btn_2 img, .btn_3 img{
     width: 45px;
     height: 35px;
     display: flex;
