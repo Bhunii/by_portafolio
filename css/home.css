@@ -5,6 +5,8 @@
     margin: 0;
 }
 
+/* El encabezado tendra una imagen o video como 
+un "background" con una frase superpuesta */
 .header{
     position: relative;
     width: 100vw;
@@ -16,7 +18,8 @@
 
 .img_header{
     width: 100vw;
-    height: 87vh;
+    height: 680px;
+    /* height: 87vh; */
     object-fit: cover;
 }
 
@@ -33,6 +36,8 @@
     font-size: 5vh;
 }
 
+/* Transicion de colores previa o posterior para la
+siguiente seccion */
 .shadow{
     position: relative;
     width: 100vw;
@@ -53,6 +58,9 @@
     background-color: rgb(145, 145, 145);
 }
 
+/* Seccion informacion personal con un
+parrafo acompañado de un titulo y una
+(imagen) a su lado*/
 .section_personal_information{
     position: relative;
     width: 100vw;
@@ -96,14 +104,18 @@
     font-size: 3vh;
 }
 
+/* Seccion sobre proyectos con un titulo
+acompañado de una descripcion y un "hibervinculo"
+para saber mas*/
 .section_about_projects{
     position: relative;
     width: 100vw;
     height: 700px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    /* justify-content: center;*/
+    align-items: center; 
 }
+
 
 
