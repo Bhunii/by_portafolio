@@ -81,7 +81,7 @@ parrafo acompañado de un titulo y una
 }
 
 .img_self{
-    width: 32%;
+    width: 28%;
     height: 55%;
 }
 
@@ -113,9 +113,62 @@ para saber mas*/
     height: 700px;
     display: flex;
     flex-direction: row;
-    /* justify-content: center;*/
+    /*justify-content: center;*/
     align-items: center; 
 }
 
 
+/* Caja de navegacion con botones*/
+.box_navegation{
+    position: fixed;
+    width: 50px;
+    height: 200px;
+    border-radius: 22px;
+    left: 95%;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(31, 30, 30);
+    z-index: 12;
+}
 
+.btn_home,.btn_2,.btn_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+}
+
+.btn_home img{
+    width: 45px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_2 img{
+    width: 45px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_3 img{
+    width: 45px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_home, .btn_3, .btn_2{
+    cursor: pointer;
+}
