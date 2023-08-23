@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Sue+Ellen+Francisco&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    position: relative;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_header{
+    width: 100vw;
+    height: 87vh;
+    object-fit: cover;
+}
+
+.phrase_header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background-color: none;
+    padding: 10px;
+    border-radius: none;
+    color: rgb(226, 221, 248);
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 5vh;
+}
+
+.shadow{
+    position: relative;
+    width: 100vw;
+    height: 15px;
+}
+
+.shadow_nro1,.shadow_nro2,.shadow_nro3{
+    height: 5px;
+    border: none;
+}
+.shadow_nro1{
+    background-color: rgb(45,45,45);
+}
+.shadow_nro2{
+    background-color: rgb(75, 75, 75);
+}
+.shadow_nro3{
+    background-color: rgb(145, 145, 145);
+}
+
+.section_personal_information{
+    position: relative;
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_personal_information{
+    display: flex;
+    width: 950px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.img_self{
+    width: 32%;
+    height: 55%;
+}
+
+.information_personal{
+    display: flex;
+    width: 646px;
+    height: 450px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 0px 0px 60px;
+}
+
+.title_info{
+    margin-right: auto;
+    padding: 0px 0px 25px 40px;
+}
+
+.p_info{
+    font-size: 3vh;
+}
+
+.section_about_projects{
+    position: relative;
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
