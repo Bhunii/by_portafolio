@@ -120,7 +120,7 @@ para saber mas*/
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgb(39, 39, 39);
 }
 
 .container_about_projects{
@@ -142,11 +142,11 @@ para saber mas*/
 .titles_projects{
     width: 380px;
     height: 80px;
-    border: 1px solid black;
     margin: 25px 10px 15px 10px;
     background-color: aliceblue;
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
+    border-radius: 7px;
 }
 
 .titles_projects{
@@ -159,11 +159,11 @@ para saber mas*/
 .content_projects{
     width: 380px;
     height: 545px;
-    border: 1px solid black;
     margin: 30px 10px 10px 10px;
     display: flex;
     flex-direction: column;
     background-color: aliceblue;
+    border-radius: 9px;
 }
 
 .content_projects p{
@@ -181,18 +181,19 @@ para saber mas*/
     padding: 15px 10px;
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
+    text-decoration: none;
 }
 
 .enlaces, a:link{
-    color: rgb(196, 87, 87);
+    color: #E49AB0;
 }
 
 .enlaces, a:visited{
-    color: rgb(23, 142, 01);
+    color: #7D84B2;
 }
 
 .enlaces, a:active{
-    color: rgb(35, 32, 103);
+    color: #C0BCB5;
 }
 
 /* Caja de navegacion con botones*/
@@ -200,6 +201,7 @@ para saber mas*/
     position: fixed;
     width: 50px;
     height: 200px;
+    border: 0.4px solid rgb(48, 47, 47);
     border-radius: 22px;
     left: 95%;
     top: 40%;
@@ -233,3 +235,10 @@ para saber mas*/
 .buttons{
     cursor: pointer;
 }
+
+.buttons:hover{
+    background-color: rgba(96, 89, 120, 0.724);
+    border: solid 1px rgb(151, 114, 174);
+}
+
+/* Pie de Pagina */
