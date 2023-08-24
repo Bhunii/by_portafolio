@@ -103,6 +103,7 @@ parrafo acompañado de un titulo y una
 
 .p_info{
     font-size: 3vh;
+    line-break: auto;
 }
 
 /* Seccion sobre proyectos con un titulo
@@ -111,12 +112,48 @@ para saber mas*/
 .section_about_projects{
     position: relative;
     width: 100vw;
-    height: 700px;
+    height: 900px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_about_projects{
+    position: absolute;
     display: flex;
     flex-direction: row;
-    /*justify-content: center;*/
-    align-items: center; 
+    width: 1100px;
+    height: 650px;
+    justify-content: space-around;
+ }
+
+.info_project_1,.info_project_2,.info_project_3{
+    width: 330px;
+    height: 600px;
+    border: 1px solid black;
 }
+
+.title_project_1,.title_project_2,.title_project_3{
+    display: flex;
+    width: 300px;
+    height: 80px;
+    border: 1px solid black;
+    margin: 25px 15px 10px 15px;
+}
+
+.content_info_1, .content_info_2, .content_info_3{
+    display: flex;
+    width: 300px;
+    height: 445px;
+    border: 1px solid black;
+    margin: 30px 15px 10px 15px;
+}
+
+.content_info_1 p, .content_info_2 p, .content_info_3 p{
+    font-size: 3vh;
+    line-break: auto;
+}
+
 
 
 /* Caja de navegacion con botones*/
