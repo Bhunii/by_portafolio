@@ -101,11 +101,13 @@ parrafo acompañado de un titulo y una
     margin-right: auto;
     padding: 0px 0px 25px 40px;
     font-family: 'Raleway', sans-serif;
+    font-size: 38px;
 }
 
 .p_info{
     font-size: 3vh;
     font-family: 'Raleway', sans-serif;
+    font-weight: 300;
 }
 
 /* Seccion sobre proyectos con un titulo
@@ -131,25 +133,30 @@ para saber mas*/
     background: none;
  }
 
-.info_project_1,.info_project_2,.info_project_3{
+.info_projects{
     width: 400px;
     height: 700px;
     border: none;
-    font-family: 'Raleway', sans-serif;
 }
 
-.title_project_1,.title_project_2,.title_project_3{
-    display: flex;
+.titles_projects{
     width: 380px;
     height: 80px;
     border: 1px solid black;
     margin: 25px 10px 15px 10px;
-    justify-content: center;
-    align-items: center;
     background-color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
 }
 
-.content_info_1, .content_info_2, .content_info_3{
+.titles_projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content_projects{
     width: 380px;
     height: 545px;
     border: 1px solid black;
@@ -159,18 +166,33 @@ para saber mas*/
     background-color: aliceblue;
 }
 
-.content_info_1 p, .content_info_2 p, .content_info_3 p{
+.content_projects p{
     font-size: 2.7vh;
     padding: 7px 11px;
     overflow: hidden;
     word-wrap: break-word;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
 }
 
-.enlace_1, .enlace_2, .enlace_3{
+.enlaces{
     margin-left: auto;
     margin-top: auto;
     padding: 15px 10px;
-    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
+
+.enlaces, a:link{
+    color: rgb(196, 87, 87);
+}
+
+.enlaces, a:visited{
+    color: rgb(23, 142, 01);
+}
+
+.enlaces, a:active{
+    color: rgb(35, 32, 103);
 }
 
 /* Caja de navegacion con botones*/
@@ -189,7 +211,7 @@ para saber mas*/
     z-index: 12;
 }
 
-.btn_home,.btn_2,.btn_3{
+.buttons{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,7 +222,7 @@ para saber mas*/
     background-color: blueviolet;
 }
 
-.btn_home img, .btn_2 img, .btn_3 img{
+.buttons img{
     width: 45px;
     height: 35px;
     display: flex;
@@ -208,6 +230,6 @@ para saber mas*/
     justify-content: center;
 }
 
-.btn_home, .btn_3, .btn_2{
+.buttons{
     cursor: pointer;
 }
