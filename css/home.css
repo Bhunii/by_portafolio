@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 /* El encabezado tendra una imagen o video como 
 un "background" con una frase superpuesta */
 .header{
@@ -34,7 +38,7 @@ un "background" con una frase superpuesta */
     border-radius: none;
     color: rgb(226, 221, 248);
     font-family: 'Fredericka the Great', cursive;
-    font-size: 7vh;
+    font-size: 75px;
 }
 
 /* Transicion de colores previa o posterior para la
@@ -105,7 +109,8 @@ parrafo acompañado de un titulo y una
 }
 
 .p_info{
-    font-size: 3vh;
+    /* font-size: 3vh; */
+    font-size: 25px;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
 }
@@ -167,7 +172,8 @@ para saber mas*/
 }
 
 .content_projects p{
-    font-size: 2.7vh;
+    /* font-size: 2.7vh; */
+    font-size: 20px;
     padding: 7px 11px;
     overflow: hidden;
     word-wrap: break-word;
