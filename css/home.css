@@ -4,6 +4,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 html{
@@ -73,7 +74,7 @@ parrafo acompañado de un titulo y una
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
     background-color: rgb(238, 239, 240);
 }
 
